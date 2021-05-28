@@ -11,6 +11,10 @@
   margin-right: auto;
   margin-top: 207px;
 
+  @media screen and (max-width: 768px) {
+    width: 75%;
+  }
+
   &__entry-btn {
     height: 60px;
     padding: 20px 34px 19px;
